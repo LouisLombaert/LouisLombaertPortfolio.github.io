@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Louis Lombaert</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="index_navbar">
+            <div class="navbar-header">
+                <div class="d-flex justify-content-center">
+                    <div class="" id="navbarNav">
+                            <a class="navbar-tab tab-link d-inline-flex" href="index.html">Home</a>
+                            <a class="navbar-tab tab-link d-inline-flex" href="CV.html">CV</a>
+                            <a class="navbar-tab tab-link d-inline-flex" href="portfolio.html">Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="card ml-3 mr-3 mt-3">
+            <div class="card-body">
+                <h1 class="card-title text-center">Louis Lombaert</h1>
+                <h2 class="card-subtitle text-center">Activitées extra-scolaires</h1>
+                <p class="portfolio-text">
+                    Voici la liste des activitées extra-scolaires que 
+                    j'ai réalisé durant mon bachelier à l'Ephec
+                </p>
+                <div id="portfolio" class="row d-flex mt-5 pl-3 pr-5">
+                    <div class="card col-md-12 table-responsive">
+                        <table class="table table-hover table-striped mt-3">
+                            <thead class="table-header">
+                              <tr>
+                                <th scope="col">Titre</th>
+                                <th scope="col">Thème</th>
+                                <th scope="col">Temps réel</th>
+                                <th scope="col">Temps validé</th>
+                                <th scope="col">Début</th>
+                                <th scope="col">Fin</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr data-toggle="modal" data-target="#sportModal">
+                                <th>Sport/course à pieds</th>
+                                <td>Soft Skill</td>
+                                <td>Incalculable</td>
+                                <td>10 H</td>
+                                <td>01-09-2021</td>
+                                <td>-</td>
+                              </tr>
+                              <tr data-toggle="modal" data-target="#hackatonModal">
+                                <th>Hackaton Ephec <br>développement durable</th>
+                                <td>Hackaton</td>
+                                <td>48 H</td>
+                                <td>10 H</td>
+                                <td>29-10-2021</td>
+                                <td>31-10-2021</td>
+                              </tr>
+                              <tr data-toggle="modal" data-target="#jobModal">
+                                <th>Job d'étudiant (développement)</th>
+                                <td>développement</td>
+                                <td>160 H</td>
+                                <td>10 H</td>
+                                <td>01-07-2022</td>
+                                <td>31-07-2022</td>
+                              </tr>
+                              <tr data-toggle="modal" data-target="#jobModal">
+                                <th>Job d'étudiant (soft skills)</th>
+                                <td>Soft skills </td>
+                                <td>160 H</td>
+                                <td>10 H</td>
+                                <td>01-07-2022</td>
+                                <td>31-07-2022</td>
+                              </tr>
+                              <tr data-toggle="modal" data-target="#nodeJsForm">
+                                <th>formation Node js</th>
+                                <td>Formation</td>
+                                <td>10 H</td>
+                                <td>10 H</td>
+                                <td>22-02-2022</td>
+                                <td>10-03-2023</td>
+                              </tr>
+                              <tr data-toggle="modal" data-target="#phpForm">
+                                <th>PHP</th>
+                                <td>Formation</td>
+                                <td>12 H</td>
+                                <td>10 H</td>
+                                <td>13-02-2023</td>
+                                <td>01-05-2023</td>
+                              </tr>
+                              <tr data-toggle="modal" data-target="#tutoratModal">
+                                <th>Tutorat</th>
+                                <td>tutorat</td>
+                                <td>2 H</td>
+                                <td>2 H</td>
+                                <td>15-02-2022</td>
+                                <td>15-06-2022</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="sportModal" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Sport/course à pieds</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="col-xl-12">
+                        <div class="col-xl-12">
+                            <p>
+                                J'ai une passion pour les sports d'endurences comme le vélo ou la course à pied. Lors de mon bachelier, j'ai commencé 
+                                la course à pied. Récemment, je m'était fixé l'objectif de faire un semi-marathon. J'ai réalisé cet objectif le 2 avril
+                                2023 lors du semi-marathon de Namur que j'ai réalisé en 1h42. Cette activité m'a beacoup apporté car elle m'a permi
+                                de me fixer des objectifs et de tout faire pour les réaliser, en plus de booster m'a confiance en moi.
+                            </p>
+                            <hr style="height: 1px;">
+                            <object class="pdf-block" type="application/pdf"
+                                data="./assets/ETICKET.pdf"
+                                width="500"
+                                height="400"></object>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="hackatonModal" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Hackaton</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="col-xl-12">
+                        <div class="col-xl-12">
+                            <p>
+                                J'ai eu la chance de participer au hackaton de l'ephec 2021 portant sur le thème du développement durable.
+                                Pour ce hackaton, moi et mon groupe avon réaliser une application que gerait l'alimentation des lumières et autres
+                                péréphirique nécessitant de l'éléctricité (ordinateurs, ...). On peut me voir sur cette 
+                                <a href="https://www.facebook.com/ephecofficiel/videos/226586492777445/" target="_blank">vidéo</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="jobModal" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Job d'étudiant</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="col-xl-12">
+                        <div class="col-xl-12">
+                            <p>
+                                J’ai eu la chance de travailler lors de l’été 2022 à la cours de justice
+                                de l’Union Européenne. De plus, j’ai put travaillé dans l’unité de technologie de l’informatique
+                                (en tant que développeur en python), ce qui est  un gros plus pour mes études. En plus de ça, cette activité a permis
+                                de développer mes soft skills car c’était m’a premier expérience en tant que travailleur dans une unité informatique.
+                            </p>
+                            <hr style="height: 1px;">
+                            <object class="pdf-block" type="application/pdf" 
+                                data="./assets/LOMBAERT[527].pdf"
+                                width="500"
+                                height="600"></object>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="nodeJsForm" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Formation nodeJs</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="col-xl-12">
+                        <div class="col-xl-12">
+                            <p>
+                                J'ai réalisé une formation OpenClassroom sur le nodeJs afin d'apprendre ce langage.
+                                <a href="https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb">Lien</a>
+                            </p>
+                            <hr style="height: 1px;">
+                            <img src="assets/formations.png" alt="formations" class="formationImage" width="700">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="phpForm" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Formation PHP</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="col-xl-12">
+                        <div class="col-xl-12">
+                            <p>
+                                Dans le cadre de mon stage, Je devais utiliser le langage PHP que je ne connaissais pas.
+                                J'ai réalisé une formation OpenClassroom sur le PHP afin d'apprendre ce langage. Cette formation est complété à 90%, en effet,
+                                j'ai dû abandonner la formation afin de commencer à travailler sur les fonctionnalités de mon stages, et j'estimais avoir assez 
+                                apprit pour commencer à coder du PHP.
+                                <a href="https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb">Lien</a>
+                            </p>
+                            <hr style="height: 1px;">
+                            <img src="assets/formations.png" alt="formations" class="formationImage" width="700">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tutoratModal" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Tutorat</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="col-xl-12">
+                        <div class="col-xl-12">
+                            <p>
+                               J'ai réalisé deux heures de tutôrat pour le cours "système d'exploitation" lors du deuxième quadrimestre 
+                               de de ma deuxième année pour l’étudiant Victor Somers.
+                            </p>
+                            <hr style="height: 1px;">
+                            <img src="assets/tutorats.png" alt="conversation tutorat" class="formationImage" width="700">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>

@@ -1,0 +1,43 @@
+body {
+    background-color: #d5dae0 !important;
+}
+.navbar-tab:hover {
+    text-decoration: underline !important;
+    color: #545788 !important;
+    
+}
+.navbar-tab {
+    color: #ffffff !important;
+    font-size: 18px;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1em;
+    /* flex: 1; */
+}
+.index_navbar {
+    background-color: #a3a2bd;
+    height: 3em;
+}
+.pdf-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.portfolio-text{
+    font-style: 'italic';
+    margin-top: 1em;
+    text-align: center;
+}
+  
+.formationImage{
+    width: '50%';
+    height: '40%';
+}
+
+.table-header {
+    background-color: #d5dae0 !important;
+
+}
+  
